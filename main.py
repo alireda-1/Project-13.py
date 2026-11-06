@@ -6,7 +6,7 @@ print("",leaves[0]," \n",leaves[1],"\n",leaves[2])
 print("Where shoud the rabbit go? 🐇")
 str_rabbit=(input("Please choose a row and a column\n "))
 if len(str_rabbit)==2:
-  if int(str_rabbit[0])<= 3 and int(str_rabbit[1])<=3 and                        int(str_rabbit[0])>0 and int(str_rabbit[1])>0:
+  if int(str_rabbit[0])<= 3 and int(str_rabbit[1])<=3 and int(str_rabbit[0])>0 and int(str_rabbit[1])>0:
     # القائمة هون ما كان الها داعي ابدا كان يمكن تخزين الأرقام المدخلة بمتغيرات عادية بدل ما رحت وساويت قائمة كاملة منشانهن
     rabbit=[]
     rabbit.append(str_rabbit[0])
